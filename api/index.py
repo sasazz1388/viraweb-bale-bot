@@ -708,6 +708,7 @@ def home():
 @app.route("/api/", methods=["POST"])
 def webhook():
 
+    print("🔥🔥 NEW VERSION WEBHOOK RUNNING 🔥🔥")
     try:
 
         update = request.get_json(
